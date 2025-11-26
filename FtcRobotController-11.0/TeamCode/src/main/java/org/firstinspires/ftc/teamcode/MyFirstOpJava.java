@@ -36,7 +36,6 @@ public class MyFirstOpJava extends LinearOpMode {
             motorTest.setPower(tgtPower);
             telemetry.addData("Target Power", tgtPower);
             telemetry.addData("Motor Power", motorTest.getPower());
-            telemetry.addData("Status", "Running");
             telemetry.update();
 
         }
