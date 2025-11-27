@@ -29,10 +29,10 @@
 
 package org.firstinspires.ftc.robotcontroller.external.samples;
 
-import android.util.Size;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
+
 import org.firstinspires.ftc.robotcore.external.hardware.camera.BuiltinCameraDirection;
 import org.firstinspires.ftc.robotcore.external.hardware.camera.WebcamName;
 import org.firstinspires.ftc.vision.VisionPortal;
@@ -67,7 +67,7 @@ import java.util.List;
  */
 @TeleOp(name = "Concept: AprilTag", group = "Concept")
 @Disabled
-public class ConceptAprilTag extends LinearOpMode {
+public class  ConceptAprilTag extends LinearOpMode {
 
     private static final boolean USE_WEBCAM = true;  // true for webcam, false for phone camera
 
